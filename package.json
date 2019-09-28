@@ -1,0 +1,22 @@
+{
+  "name": "node-sample",
+  "version": "1.0.0",
+  "description": "Node.js sample.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youkidkk/node-sample.git"
+  },
+  "author": "youkidkk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youkidkk/node-sample/issues"
+  },
+  "homepage": "https://github.com/youkidkk/node-sample#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0"
+  }
+}
