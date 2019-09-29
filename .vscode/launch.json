@@ -10,7 +10,10 @@
             "type": "node",
             "request": "launch",
             "name": "Node.js: Current File",
-            "program": "${file}"
+            "program": "${file}",
+            "env": {
+                "NODE_PATH": "./sample"
+            }
         }
     ]
 }
