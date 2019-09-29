@@ -9,7 +9,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Debug current Node.js file",
+            "name": "Node.js: Current File",
             "program": "${file}"
         }
     ]
