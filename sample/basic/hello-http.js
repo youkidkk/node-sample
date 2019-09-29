@@ -4,6 +4,7 @@ const os = require("os")
 http.createServer(function (req, res) {
     const host = os.hostname()
     const url = req.url
+    console.log(`Accessed from ${host}`)
     res.writeHead(200, {
         "Content-Type": "text/html"
     })
